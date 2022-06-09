@@ -15,7 +15,7 @@ Install the appropriate packages based on the script on the computer
 
 # Prerequisites: Changing Hostname
 
-The hostname in `client.py` (line 20: `host = <YOUR-HOSTNAME>`) must be changed to the hostname of the computer with the `master.py` script. This can be found by running:
+The hostname in `client.py` (line 20: `host = "<MASTER-COMPUTER-HOSTNAME>"`) must be changed to the hostname of the computer with the `master.py` script. This can be found by running:
 ```
 import socket
 print(socket.gethostname())
