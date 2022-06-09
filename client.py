@@ -17,7 +17,7 @@ def next():
 
 def restart():
     s = socket.socket()
-    host = "S20364-PC"
+    host = "<MASTER-COMPUTER-HOSTNAME>" # Found using socket.gethostname()
     hostname = socket.gethostname()
     port = 8080
     connected = False
